@@ -7,7 +7,7 @@ services:
     env_file:
       - .env
     ports:
-      - "2222:80"
+      - "80:2222"
     networks:
       - some-network
   auth:
